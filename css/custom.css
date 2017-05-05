@@ -1,0 +1,47 @@
+.spacing {
+  margin-top: 20px; 
+}
+.navbar {
+  border-bottom: 1px solid rgba(0,0,0,.5);
+  height: 75px;
+  text-align: right; 
+}
+.navbar #logo {
+  float: left; 
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 25px; 
+  line-height: 75px;
+}
+.navbar #logo a {
+  text-decoration: none; 
+  color: #000;
+}
+.navbar li {
+  display: inline-block; 
+  line-height: 75px; 
+  padding: 0 20px; 
+  
+}
+.navbar li a {
+  text-decoration: none; 
+  color: #000; 
+  text-transform: uppercase; 
+}
+
+.rounded-border {
+  border: 1px solid rgba(0,0,0,.5); 
+  border-radius: 5px; 
+  padding: 10px; 
+}
+
+.category-navbar li {
+  list-style: square inside url('data:image/gif;base64,R0lGODlhBQAKAIABAAAAAP///yH5BAEAAAEALAAAAAAFAAoAAAIIjI+ZwKwPUQEAOw==');
+}
+
+#btn-danger {
+  background-color: red; 
+}
+textarea {
+  height: 200px;
+}
